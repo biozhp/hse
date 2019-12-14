@@ -1,0 +1,3 @@
+## Genome wide identification of heat shock elements
+sh ./run_pipeline.sh ./example/hse/wheat.V1.cds.fa wheat.V1.gene.gff3 wheat_genome_chr_length.txt wheat.V1.genome.fa ./wheat_hse
+## Because the wheat.V1.genome.fa is more than 14G and cannot be uploaded, the genome sequence is not stored in this directory. It can be downloaded on the website(https://urgi.versailles.inra.fr/download/iwgsc/IWGSC_RefSeq_Assemblies/v1.0/iwgsc_refseqv1.0_all_chromosomes.zip).

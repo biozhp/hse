@@ -1,0 +1,10 @@
+## GO enrichment analysis (Line 273)
+library("clusterProfiler")
+gene <- read.table(file = "./example/enrichment/Grain_TTGs_HS.txt",header = F,sep="\t")
+gene <- as.factor(gene$V1)
+term2gene <- read.table(file = "./example/enrichment/wheat_gene.txt",header=F,sep="\t")
+term2name <- read.csv(file = "./example/enrichment/wheat_name.csv",header=F,sep=",")
+x <- enricher(gene,TERM2GENE=term2gene,TERM2NAME=term2name,pvalueCutoff = 0.01, pAdjustMethod = "BH", qvalueCutoff = 0.01)
+ouf <- paste("wheat_enrichment.txt",sep ="\t")
+write.table(x,ouf)
+## The other input files are in the folder ("./example/enrichment/"), run with the same codes.
