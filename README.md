@@ -41,5 +41,8 @@ The scripts used for identifying heat shock elements (HSEs) contain the followin
 4) The script “hse_call.py” was used to identify HSEs with regular expressions from promoter sequence.
 5) The scripts “hse_result.py”, “hse_mismatch.py” and “hse_pos.py” were used to characterize and classify the identified HSEs.
 
+## Citation
+Zhao P, Javed S, Shi X, Wu B, Zhang D, Xu S and Wang X (2020) Varying Architecture of Heat Shock Elements Contributes to Distinct Magnitudes of Target Gene Expression and Diverged Biological Pathways in Heat Stress Response of Bread Wheat. Front. Genet. 11:30. doi: 10.3389/fgene.2020.00030
+
 ## Contact
 For any bugs/issues/suggestions, please send emails to: Peng Zhao pengzhao@nwafu.edu.cn.
